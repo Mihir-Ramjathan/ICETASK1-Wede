@@ -1,0 +1,113 @@
+/* Element Selector */
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ID Selector */
+#main-header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+/* Grouping Selector */
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+
+/* Class Selector */
+.course-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+/* Class Selector */
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Descendant Selector */
+.course-card a {
+    color: #243b55;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Class Selector */
+.featured {
+    background-color: #e8f1ff;
+    border: 2px solid #3578e5;
+}
+
+
+/* Class Selector */
+.contact-section {
+    background-color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+
+/* Class Selector */
+.contact-button {
+    background-color: #3578e5;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Pseudo-Class */
+.contact-button:hover {
+    background-color: #1f5bb5;
+    transform: scale(1.05);
+}
+
+
+/* Pseudo-Class */
+.course-card a:hover {
+    color: #3578e5;
+    text-decoration: underline;
+}
+
+
+/* Element Selector */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* Descendant Selector */
+#main-header p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
